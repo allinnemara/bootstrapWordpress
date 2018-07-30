@@ -1,0 +1,20 @@
+// Personalização do tema
+$my-color-1:#B94512;
+$my-color-2:#130303;
+$my-color-3:#53582F;
+$my-color-4:#320428;
+$my-color-5:#E39706;
+
+$theme-colors:(
+    "my-colors-1": $my-color-1,
+    "my-colors-2": $my-color-2,
+    "my-colors-3": $my-color-3,
+    "my-colors-4": $my-color-4,
+    "my-colors-5": $my-color-5,
+);
+
+// Personalização de classes
+$link-color: $my-color-1;
+
+// importar o Bootstrap
+@import "node_modules/bootstrap/scss/bootstrap";
